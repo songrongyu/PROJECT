@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    	<script src="js/jquery-2.2.2.js"></script>
+    	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    	<link rel="stylesheet" type="text/css" href="css/shopcar.css">
+        <script src="js/shopcar.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="pageone">
+			<div data-role="header" id="header">
+				<a href="index.html" data-ajax="false" data-icon="back" data-iconpos="notext"></a>
+				<h2>购物车</h2>
+				<a href="index.html" data-ajax="false" data-icon="home" data-iconpos="notext"></a>
+			</div>
+            <div>
+                <ul id="aa"></ul>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#">合计：</a></li>
+                       <li><a href="#" onclick="buy()" data-role="button" style="background-color: orangered; color: white;" >我的购物车</a></li>
+                        <li><a href="#" data-role="button" style="background-color: orangered; color: white;">结算</a></li>
+                    </ul>
+                </div>
+            </div>
+		</div>
+	</body>
+</html>

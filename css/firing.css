@@ -1,0 +1,25 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%px;
+	background: #fff;
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 100%;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide{
+	position: relative;
+}
+.button{
+	position: absolute;
+	top: 85%;
+	left: 32%;
+}

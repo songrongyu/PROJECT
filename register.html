@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    	<link rel="stylesheet" href="login.html" />
+    	<script src="js/jquery-2.2.2.js"></script>
+    	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/register.js"></script>
+    	<link rel="stylesheet" type="text/css" href="css/register.css">
+	</head>
+	<body>
+		<div data-role="page" id="pageone">
+			<div id="content">
+				<div id="tx">
+					<img class="img1" src="img/00.jpg" />
+				</div>
+				<div id="fr">
+					<input type="text" id="text" placeholder="用户名" />
+                    <span id="span"></span>
+					<input type="password" id="password" placeholder="密码" />
+                    <span id="ps"></span>
+					<input type="password" id="rpassword" placeholder="确认密码" />
+                    <span id="rps"></span>
+					<button id="btn" onclick="hello()">注册</button>
+					<a href="login.html" data-ajax="false">已有账号直接登录</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

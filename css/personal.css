@@ -1,0 +1,23 @@
+#aa{
+	width: 100%;
+}
+#header{
+	background-color: orangered;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+	width: 100%;
+}
+ul li img{
+	width: 40%;
+	width: 40%;
+}
+#back{
+	width:100%;
+	background-color: orangered;
+	color:white;
+	height: 100%;
+}

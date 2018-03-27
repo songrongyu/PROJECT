@@ -1,0 +1,41 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+#header{
+	background-color: orangered;
+}
+.swiper-container {
+	width: 100%;
+	height: 20%;
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 20%;
+}
+img{
+	width: 100%;
+	height: 20%;
+}
+#header{
+	width: 100%;
+	height: 12%;
+}
+ul li{
+	list-style: none;
+	width: 45%;
+	height: 30%;
+	float: left;
+	margin: 0 0 0 3%;
+}
+#goodList img{
+    width: 150px;
+	height: 150px;
+}
+#goodList{
+    padding: 0px;
+}
+.cc img{
+    width:30px;
+    height: 30px;
+}

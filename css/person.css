@@ -1,0 +1,19 @@
+#header{
+	background-color: orangered;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+	width: 99%;
+}
+ul li img{
+	width: 40%;
+	width: 40%;
+}
+/*#f{
+	float: left;
+	margin: 5%  0 0 5%;
+	text-align: center;
+}*/

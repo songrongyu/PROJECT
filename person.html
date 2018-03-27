@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    	<link rel="stylesheet" href="login.html" />
+    	<link rel="stylesheet" href="index.html" />
+    	<link rel="stylesheet" type="text/css" href="personal.html">
+    	<script src="js/jquery-2.2.2.js"></script>
+    	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    	<link rel="stylesheet" type="text/css" href="css/person.css">
+</head>
+<body>
+	<div data-role="page">
+		<div data-role="header" data-position="fixed" id="header">
+			<a id="ll" href="#" data-role="none"><img style="width: 40px; border-radius: 90px;" src="img/22.jpg"></a>
+			<h4>个人中心</h4>
+			<a href="#" data-icon="home" data-iconpos="notext"></a>
+		</div>
+		<div data-role="content">
+			<div>
+				<ul data-role="listview">
+					<li><a href="#">我的订单 <span style="color: darkgray; font-size: 12px; float: right;">查看全部订单</span></a></li>
+				</ul>
+			</div>
+			<div data-role="navbar" style="padding: 15px 0 0 0; font-size: 12px;">
+				<ul>
+					<li><a href="#"><img src="img/a.png" class="ui-li-icon"/></br>待付款</a></li>
+					<li><a href="#" ><img src="img/c.png" class="ui-li-icon"/></br>待发货</a></li>
+					<li><a href="#" ><img src="img/b.png" class="ui-li-icon"/></br>待收货</a></li>
+					<li><a href="#" ><img src="img/d.png" class="ui-li-icon"/></br>待评价</a></li>
+					<li><a href="#" ><img src="img/e.png" class="ui-li-icon"/></br>售后</a></li>
+				</ul>
+			</div>
+			<div style="margin-top: 5%; text-align: center;">
+				<ul data-role="listview">
+					<li><a href="#">必备工具 <span style="color: darkgray; font-size: 12px; float: right;">更多</span></a></li>
+					<li ><a href="#" >收货地址</a></li>
+                    <li ><a href="#">我的卡券包 <span style="float: right; color: darkgrey; font-size: 12px;">卡券红包乐不停</span></a></li>
+                    <li ><a href="#">我的独享特权<span style="float: right; color: darkgrey; font-size: 12px;">每日签到拿好礼</span></a></li>
+                    <li ><a href="#">我的日历</a></li>
+                    <li ><a href="#">应用中心<span style="float: right; color: darkgrey; font-size: 12px;">1个应用更新</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" data-ajax="false" data-icon="home">首页</a></li>
+						<li><a href="#" data-icon="search">搜索</a></li>
+						<li><a href="shopcar" data-icon="star">购物车</a></li>
+						<li><a href="#" data-icon="gear">我的</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$('#ll').click(function(){
+		if(!localStorage.getItem('userid')){
+            window.location.href="login.html";
+        }else{
+        	window.location.href="personal.html";
+        }
+	})
+</script>
+</html>

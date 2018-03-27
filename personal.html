@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    	<link rel="stylesheet" href="login.html" />
+    	<link rel="stylesheet" href="index.html" />
+    	<script src="js/jquery-2.2.2.js"></script>
+    	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    	<link rel="stylesheet" type="text/css" href="css/personal.css">
+</head>
+<body>
+	<div data-role="page" id="aa">
+		<div data-role="header" id="header">
+				<a href="#" data-role="none"><img style="width: 40px; border-radius: 90px;" src="img/22.jpg"></a>
+				<h2>设置</h2>
+				<a href="person.html" data-ajax="false" data-icon="back" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content">
+				<ul data-role="listview">
+	                <li ><a href="#" >淘宝会员</a></li>
+	                <li ><a href="#">个人资料</a></li>
+	                <li ><a href="#">修改密码</a></li>
+	                <li ><a href="#">微淘宝</a></li>
+	                <li ><a href="#">我的收藏</a></li>
+	                <li ><a href="#">收藏店铺</a></li>
+	                <li ><a href="#">优惠券</a></li>
+	             </ul>
+			</div>
+			<div data-role="footer" data-position="fixed">
+			<a href="#" id="back" data-role="button" data-ajax="false">退出登录</a>
+			</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$('#back').click(function(){
+		localStorage.removeItem('userid');
+		window.location.href="denglu.html";
+	})
+</script>
+</html>
